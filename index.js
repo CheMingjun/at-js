@@ -10,13 +10,13 @@
 'use strict';
 var assert = require('assert').ok,anno = require('./lib/anno');
 //---------------------------------------------------------------------------------------------
-var toybricks = {};
-module.exports = toybricks;
+var Rtn = {};
+module.exports = Rtn;
 /**
  * The configuaration of Toybricks
  * @param _cfg {logger}
  */
-toybricks.config=function (_cfg) {
+Rtn.config=function (_cfg) {
     var util = require("./lib/util")
     if (typeof _cfg === 'object') {
         if (typeof _cfg.logger === 'function') {
@@ -32,9 +32,9 @@ toybricks.config=function (_cfg) {
  * @param _name
  * @param _impl
  */
-toybricks.regAnnotation = anno.reg;
+Rtn.regAnnotation = anno.reg;
 //---------------------------------------------------------------------------
-toybricks.regAnnotation('logger',{
+Rtn.regAnnotation('logger',{
     scope: 'var', build: function () {
         return "return require('toybricks/lib/util').log();\n"
     }
