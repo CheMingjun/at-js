@@ -98,7 +98,7 @@ at-js通过define(name,value)的形式定义一个（组）注释
 name应该为一组具备相同特征的annotation的正则表达式字符串，
 如: name='test.\\S+'
 
-**value**  at-js目前（version 1.2.0）支持两种范围的注释：
+**value**  at-js目前（version 1.2.1）支持两种范围的注释：
 
 1. var 变量型注释
 ```js
