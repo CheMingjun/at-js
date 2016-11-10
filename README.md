@@ -1,5 +1,5 @@
 #at-js
- [(中文)](./readme-zh.MD)
+ [(中文)](./readme-zh.md)
 >The annotation framework for javascript/node.js
 
 ##Javascript annotation type(not decorator type in ES6)
