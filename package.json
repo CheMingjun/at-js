@@ -9,8 +9,9 @@
     "main": "./index",
     "maintainers": [
         {
-            "email": "chemingjun@126.com",
-            "name": "chemingjun"
+            "name": "chemingjun",
+            "wechat-id": "ALJZJZ",
+            "email": "chemingjun@126.com"
         }
     ],"repository":"http://registry.npmjs.org"
 }
