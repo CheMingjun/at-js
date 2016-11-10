@@ -1,9 +1,9 @@
 {
     "name": "at-js",
-    "readme": "README.md",
+    "readme": "readme.md",
     "scripts": {},
     "version": "1.2.0",
-    "description": "README.md",
+    "description": "readme.md",
     "devDependencies": {},
     "directories": {},
     "main": "./index",

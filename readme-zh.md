@@ -1,6 +1,6 @@
 #at-js
- [(中文)](./readme-zh.MD)
->The annotation framework for javascript/node.js
+ [(English)](./readme.MD)
+>Javascript/node.js 注释类型
 
 ##Javascript annotation type(not decorator type in ES6)
 As we know,the Annotation type is not surport in javascript language.The at-js framework made it posible.
