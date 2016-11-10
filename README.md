@@ -78,12 +78,10 @@ var fh = function () {
 ```
 ##API
 ###安装
-***
 ```
 $ npm install at-js
 ```
 ###定义注释
-***
 ```js
 var atJs = require('at-js');
 
@@ -140,7 +138,6 @@ name应该为一组具备相同特征的annotation的正则表达式字符串，
 file 型注释的实际例子，可以参考 [at-test](https://github.com/CheMingjun/at-test)源码
 
 ###使用注释
-***
 ```js
 //注释可以通过
 '@任意非空白字符';
