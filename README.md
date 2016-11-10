@@ -1,5 +1,5 @@
 #at-js（为 Javascript 扩展的注释类型）
- [(English)](./readme.md)
+ [(English)](./readme-en.md)
 >为 Javascript/node.js 扩展的注释类型
 
 **Javascript annotation 类型(非 decorator type in ES6)**  
@@ -82,7 +82,7 @@ var fh = function () {
 ```
 $ npm install at-js
 ```
-###define
+###定义注释
 ***
 ```js
 var atJs = require('at-js');
@@ -138,3 +138,48 @@ name应该为一组具备相同特征的annotation的正则表达式字符串，
     }
 ```
 file 型注释的实际例子，可以参考 [at-test](https://github.com/CheMingjun/at-test)源码
+
+###使用注释
+***
+```js
+//注释可以通过
+'@任意非空白字符';
+//也可以使用
+//@任意非空白字符
+
+//简单的注释
+'@myAnno';
+var someVar = function(){
+
+}
+
+//带参数的注释
+'@myAnno(name=somevalue)';
+var someVar = function(){
+
+}
+
+//多个参数的注释,url风格的参数表，多个以&分开
+'@myAnno(name=somevalue&for=v0,v1)';
+var someVar = function(){
+
+}
+
+//除function之外，被注释的变量可以是undefined
+'@myAnno';
+var someVar;
+
+//被注释的变量可以是function* 
+'@myAnno';
+var someVar = function*(){
+    yield sleep(2000);
+};
+
+//被注释的变量可以是{}
+'@myAnno';
+var someVar = {
+    origin:function(){
+        
+    }
+};
+```
