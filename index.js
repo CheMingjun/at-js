@@ -13,9 +13,9 @@ var anno = require('./lib/anno');
 var Rtn = {};
 module.exports = Rtn;
 /**
- * define a  annotatioin
- * @param _name
- * @param _impl
+ * Define an annotatioin
+ * @param _name The annotation(group)'s name
+ * @param _builder Builder for the annotation
  */
 Rtn.define = function () {
     anno.def.apply(this, Array.prototype.slice.call(arguments));

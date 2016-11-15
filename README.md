@@ -11,7 +11,7 @@ at-js的目的是为JS/node引入真正意义的annotation。
 
 ## 安装at-js
 ```
-npm install at-js
+$ npm install at-js
 ```
 ##使用案例
 1. 在您的module`入口文件`中，定义"helloworld"注释
@@ -180,9 +180,5 @@ var someVar = {
     }
 };
 ```
-##基于at-js的实用框架
-[at-test](https://github.com/CheMingjun/at-js)  单元测试
-
-[at-dao](https://github.com/CheMingjun/at-dao) 数据库接入
 
 > 欢迎提issue，或者直接联系作者即时交流(微信号:ALJZJZ) 
