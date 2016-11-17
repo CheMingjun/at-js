@@ -1,17 +1,21 @@
 {
-    "name": "at-js",
-    "readme": "readme.md",
-    "scripts": {},
-    "version": "1.2.4",
-    "description": "readme.md",
-    "devDependencies": {},
-    "directories": {},
-    "main": "./index",
-    "maintainers": [
-        {
-            "name": "chemingjun",
-            "wechat-id": "ALJZJZ",
-            "email": "chemingjun@126.com"
-        }
-    ],"repository":"http://registry.npmjs.org"
+  "name": "at-js",
+  "scripts": {},
+  "version": "1.2.5",
+  "description": "为 Javascript/node.js 提供完整的@Annotation扩展机制",
+  "devDependencies": {},
+  "directories": {},
+  "main": "./index",
+  "maintainers": [
+    {
+      "name": "chemingjun",
+      "wechat-id": "ALJZJZ",
+      "email": "chemingjun@126.com"
+    }
+  ],
+  "repository": "http://registry.npmjs.org",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.12.0"
+  }
 }
