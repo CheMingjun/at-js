@@ -2,6 +2,10 @@
  [(English)](./readme-en.md)
 >为 Javascript/node.js 扩展的注释类型
 
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+
+
 **Javascript annotation 类型(非 decorator type in ES6)**  
 Annotation的意义在于为语言增加了一个新的维度，
 "注释类型"（annotation）在JS中并非天然支持，
@@ -181,4 +185,9 @@ var someVar = {
 };
 ```
 
-> 欢迎提issue，或者直接联系作者即时交流(微信号:ALJZJZ) 
+> 欢迎提issue，或者直接联系作者即时交流(微信号:ALJZJZ)
+ 
+ [npm-image]: https://img.shields.io/npm/v/at-js.svg
+ [npm-url]: https://npmjs.org/package/at-js
+ [downloads-image]: https://img.shields.io/npm/dm/at-js.svg
+ [downloads-url]: https://npmjs.org/package/at-js
