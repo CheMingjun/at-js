@@ -1,7 +1,7 @@
 {
   "name": "at-js",
   "scripts": {},
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "为 Javascript/node.js 提供完整的@Annotation扩展机制",
   "devDependencies": {},
   "directories": {},
